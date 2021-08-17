@@ -1,0 +1,11 @@
+@media only screen and (max-width: 400px) {
+    .content{
+        font-size:0.563rem;
+    }
+    .content h2{
+        font-size: 1.125rem;
+        line-height: 1.30;
+        font-weight: 500;
+    }
+}
+
