@@ -56,7 +56,28 @@ main.container{
     line-height: 1.4;
 }
 
+.fab, .fas{
+    margin: 0 0.5px;
+    width: 40px;
+    font-size: 1.5rem;
+}
+
 .social-field a{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 15px 0;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 50px;
+    padding: 0.5rem;
+    text-decoration: none;
+    color:#141414;
+
+}
+
+/* .social-field a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,11 +91,11 @@ main.container{
     cursor: pointer;
     margin:15px 0;
     background-color: #fff;
-}
+} */
 
 
 .social-field a:hover{
-    background-color: rgb(27, 156, 231);
+    background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     border: 2px solid rgba(255, 255, 255, 0.5);
 }
@@ -82,6 +103,10 @@ main.container{
 .footer{
     padding: 1rem;
     text-align: center;
+}
+
+iframe{
+    border-radius: 25px;
 }
 
 
