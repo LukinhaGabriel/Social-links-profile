@@ -9,7 +9,7 @@ export default function Page(){
                 <div className="content">
                     <h2 className="name">Lucas Gabriel Moya</h2>
                     <p className="description">
-                        Web Designer e Desenvolvedor Frontend
+                        Web Designer e Desenvolvedor FrontEnd
                     </p>
                 </div>
             </header>
