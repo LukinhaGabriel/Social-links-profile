@@ -1,5 +1,15 @@
+"use client";
+
+import { useEffect, useState } from "react";
+
 export default function Page(){
-    const year = new Date().getFullYear();
+    const currentYear = new Date().getFullYear();
+    const [$year, setYear] = useState(currentYear);
+
+    useEffect(() => {
+        setYear(currentYear)
+    },[])
+
     return(
         <main>
             <header className="profile">
@@ -58,7 +68,7 @@ export default function Page(){
                 </div>
             </section>
             <footer className="footer">
-                <p className="copyright">© {year} • Lucas Gabriel Moya</p>
+                <p className="copyright">© {$year} • Lucas Gabriel Moya</p>
             </footer>
         </main>
     )
