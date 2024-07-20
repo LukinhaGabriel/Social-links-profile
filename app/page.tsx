@@ -26,12 +26,12 @@ export default function Page(){
             <section className="social-fields">
                 <div className="list-social-field">
                     <a className="social-field instagram"
-                    href="https://www.instagram.com/lucas.gabriel.moya/">
+                    href="https://www.instagram.com/lucasgmoya">
                         <i className="fab fa-instagram" />
                         <p className="text">Instagram</p>
                     </a>
                     <a className="social-field linkedin" 
-                    href="https://www.linkedin.com/in/lucas-gabriel-moya/">
+                    href="https://www.linkedin.com/in/lucasgabrielmoya">
                         <i className="fab fa-linkedin-in" />
                         Linkedin
                     </a>
