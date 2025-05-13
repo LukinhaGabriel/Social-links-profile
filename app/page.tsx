@@ -18,18 +18,10 @@ export default function Page(){
                 alt="Foto-Perfil" />
                 <div className="content">
                     <h2 className="name">Lucas Gabriel Moya</h2>
-                    <p className="description">
-                        Web Designer e Desenvolvedor FrontEnd
-                    </p>
                 </div>
             </header>
             <section className="social-fields">
                 <div className="list-social-field">
-                    <a className="social-field instagram"
-                    href="https://www.instagram.com/lucasgmoya">
-                        <i className="fab fa-instagram" />
-                        <p className="text">Instagram</p>
-                    </a>
                     <a className="social-field linkedin" 
                     href="https://www.linkedin.com/in/lucasgabrielmoya">
                         <i className="fab fa-linkedin-in" />
@@ -62,6 +54,11 @@ export default function Page(){
                     </a>
                     <a className="social-field portfolio" 
                     href="https://portfolio.fateclins.edu.br/~1920831821007/Html/home.php">
+                        <i className="fas fa-link" />
+                        Portfólio - Faculdade
+                    </a>
+                     <a className="social-field portfolio" 
+                    href="https://whispering-lungfish-c48.notion.site/Lucas-Gabriel-Moya-fc349fed77064d429a8c15664f67f437?pvs=74">
                         <i className="fas fa-link" />
                         Portfólio
                     </a>
